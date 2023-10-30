@@ -1,0 +1,196 @@
+/* Null Styles*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+ }
+ 
+ :focus,
+ :active {
+   outline: none;
+ }
+ 
+ a:focus,
+ a:active {
+   outline: none;
+ }
+ 
+ nav,
+ footer,
+ header,
+ aside {
+   display: block;
+ }
+ 
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 0.93rem;
+   font-family: "Overpass";
+   font-weight: 600;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   font-family: "Manrope", sans-serif;
+   font-weight: 400;
+ }
+ 
+ input,
+ button,
+ textarea {
+   font-family: inherit;
+ }
+ 
+ input::-ms-clear {
+   display: none;
+ }
+ 
+ button {
+   cursor: pointer;
+ }
+ 
+ button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+ }
+ 
+ a,
+ a:visited {
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: none;
+ }
+ 
+ ul li {
+   list-style: none;
+ }
+ 
+ img {
+   vertical-align: top;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-size: inherit;
+   font-weight: 400;
+ }
+ /* =========================== */
+
+ body {
+   background-color: #236746;
+ }
+
+.wrapper {
+   
+}
+
+.form-wrapper {
+   max-width: 300px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   padding: 20px 17px 40px 17px;
+   display: flex;
+   flex-direction: column;
+
+   background-color: #fff;
+   border-radius: 5px;
+}
+
+.form-wrapper_title {
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.form-wrapper_text {
+   margin-bottom: 20px;
+
+   font-size: 18px;
+   text-align: center;
+   color: #6b6b6b;
+}
+
+.form {
+   
+}
+
+.form_list {
+   margin-bottom: 20px;
+}
+
+.form_item {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+
+label {
+   font-size: 12px;
+   color: #6b6b6b;
+   margin-bottom: 5px;
+}
+
+input {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.form_button {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.form_button a {
+   min-width: 100%;
+   flex-wrap: nowrap;
+   background-color: #FF7F4F;
+   color: #fff;
+   font-size: 20px;
+   text-transform: uppercase;
+   padding: 13px 5px;
+   border-radius: 5px;
+   text-align: center;
+   transition: all .3s ease-in-out;
+
+}
+
+.form_button a:hover {
+   background-color: #f3632f;
+}
+
+.form_text {
+   font-size: 12px;
+   margin: 0 auto;
+   color: #757272;
+   text-align: center;
+   max-width: 250px;
+}
+
+.info_link {
+   font-size: inherit;
+   color: #FF7F4F;
+   transition: all .2s ease-in-out;
+}
+
+.info_link:hover {
+   color: #e8a58c;
+}
+
+.login-info {
+   text-align: center;
+   font-size: 17px;
+   color: #fff;
+}
+
+.login-info_link {
+}
